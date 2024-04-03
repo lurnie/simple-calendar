@@ -1,0 +1,36 @@
+html {
+    background-color:#0c0d12;
+    color: #c4c2bd;
+    margin-left: 5%;
+    font-family:sans-serif;
+    font-size: 11pt;
+}
+
+td {
+    text-align: center;
+    width:15%;
+}
+
+.year {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month {
+    flex: 20%;
+    padding-right: 5%;
+}
+
+.yearHeader {
+    width: 100%;
+    color: white;
+}
+
+.monthHeader {
+    color: white;
+}
+
+#currentDay {
+    color:red;
+}
